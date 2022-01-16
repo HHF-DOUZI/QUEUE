@@ -11,15 +11,15 @@ typedef int Item;     //用于use_q.c
 
 typedef struct node
 {
-	Item item;				//data
-	struct node *next;      //next node
+	Item item;				//数据
+	struct node *next;      		//下一个节点
 }Node;
 
 typedef struct queue
 {
-	Node * front;			//head
-	Node * rear;			//fail
-	int items;				//count
+	Node * front;				//头节点
+	Node * rear;				//尾节点
+	int items;				//节点计数
 }Queue;
 
 /*
